@@ -1,0 +1,46 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+## Part 1
+
+1.  What do you think being a data scientist is about?
+
+    - Helping organizations interpret and utilize large amounts of data in a meaningful manner (prediction, prevention, analysis etc.)
+
+2.  What differences/similarities do you see between data scientists and statisticians?
+
+    - Statisticians emphasize more on the theoretical analytics and math portions of the field, whereas data scientists are likely to leverage programming more as well as place emphasis on final company/business goals.
+
+    <!-- -->
+
+    - While statisticians might prefer statistical efficiency/optimization and validity, data scientists are more likely to tradeoff absolute accuracy to accomodate real world constraints like monetary or computing costs.
+
+3.  How do you view yourself in relation to these two areas?
+
+    - Its difficult to be a data scientist without having solid statistical foundations, so I believe in first learning and doing your best at mastering theoretical concepts, but then honing in on the application aspect (specifically ML these days).
+
+## Part 2
+
+Given data y
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Identify details
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Plotting y
+
+```{r}
+#| echo: false
+plot(y)
+```
