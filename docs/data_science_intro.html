@@ -147,11 +147,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 <li><p>What differences/similarities do you see between data scientists and statisticians?</p>
 <ul>
-<li>Statisticians emphasize more on the theoretical analytics and math portions of the field, whereas data scientists are likely to leverage programming more as well as place emphasis on final company/business goals.</li>
-</ul>
-<!-- -->
-<ul>
-<li>While statisticians might prefer statistical efficiency/optimization and validity, data scientists are more likely to tradeoff absolute accuracy to accomodate real world constraints like monetary or computing costs.</li>
+<li><p>Statisticians emphasize more on the theoretical analytics and math portions of the field, whereas data scientists are likely to leverage programming more as well as place emphasis on final company/business goals.</p></li>
+<li><p>While statisticians might prefer statistical efficiency/optimization and validity, data scientists are more likely to tradeoff absolute accuracy to accommodate real world constraints like monetary or computing costs.</p></li>
 </ul></li>
 <li><p>How do you view yourself in relation to these two areas?</p>
 <ul>
@@ -161,11 +158,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="part-2" class="level2">
 <h2 class="anchored" data-anchor-id="part-2">Part 2</h2>
-<p>Given data y</p>
+<p>Using the given code to extract data into y</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p>Identify details</p>
+<p>Identify fundamental details (specifically the class, type, and structure using built in functions)</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -188,7 +185,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  - attr(*, "class")= chr "density"</code></pre>
 </div>
 </div>
-<p>Plotting y</p>
+<p>Plotting y using built in plot function</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
