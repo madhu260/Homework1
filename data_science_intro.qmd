@@ -22,13 +22,13 @@ editor: visual
 
 ## Part 2
 
-Given data y
+Using the given code to extract data into y
 
 ```{r}
 y <- density(iris$Petal.Width)
 ```
 
-Identify details
+Identify fundamental details (specifically the class, type, and structure using built in functions)
 
 ```{r}
 class(y)
@@ -36,7 +36,7 @@ typeof(y)
 str(y)
 ```
 
-Plotting y
+Plotting y using built in plot function
 
 ```{r}
 #| echo: false
