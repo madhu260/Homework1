@@ -14,8 +14,6 @@ editor: visual
 
     - Statisticians emphasize more on the theoretical analytics and math portions of the field, whereas data scientists are likely to leverage programming more as well as place emphasis on final company/business goals.
 
-    <!-- -->
-
     - While statisticians might prefer statistical efficiency/optimization and validity, data scientists are more likely to tradeoff absolute accuracy to accomodate real world constraints like monetary or computing costs.
 
 3.  How do you view yourself in relation to these two areas?
